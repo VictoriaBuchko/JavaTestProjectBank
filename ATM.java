@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.LinkedHashMap;
 
 public class ATM {
-    private Map<Integer, Integer> banknotes; // номінал → кількість
+    private Map<Integer, Integer> banknotes; //номінал - кількість
     private int minAmount;
     private int maxAmount;
     private int maxNotesPerOperation;
